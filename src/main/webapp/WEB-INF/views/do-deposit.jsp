@@ -6,9 +6,9 @@
 	href="../../resources/files/css/bootstrap.min.css">
 <div class="panel panel-default">
 	<div class="panel-heading">
-		<center>
-			<h3 style="color: #800000">Deposit Informations</h3>
-		</center>
+		
+			<h3 style="color: #800000" align="center">Deposit Informations</h3>
+		
 	</div>
 	<div class="panel-body">
 		<form:form cssClass="form-horizontal" modelAttribute="banqueForm"

@@ -6,17 +6,18 @@
 	href="../../resources/files/css/bootstrap.min.css">
 <div class="panel panel-default">
 	<div class="panel-heading">
-		<center>
-			<h3 style="color: #800000">Transfer Informations</h3>
-		</center>
+
+		<h3 style="color: #800000" align="center">Transfer Informations</h3>
+
 	</div>
 	<div class="panel-body">
-	
+
 		<form:form cssClass="form-horizontal" modelAttribute="banqueForm"
 			action="transfer" method="post">
 			<div class="form-group col-sm-12">
-				<label for="codeCompte" class="col-sm-3 col-sm-offset-1 control-label">From
-					Compte <strong style="color: red">*</strong> :
+				<label for="codeCompte"
+					class="col-sm-3 col-sm-offset-1 control-label">From Compte
+					<strong style="color: red">*</strong> :
 				</label>
 				<div class="col-sm-6">
 
@@ -29,8 +30,10 @@
 				</div>
 			</div>
 			<div class="form-group col-sm-12">
-				<label for="codeCompte" class="col-sm-3 col-sm-offset-1 control-label">To <strong
-					style="color: red">*</strong> : </label>
+				<label for="codeCompte"
+					class="col-sm-3 col-sm-offset-1 control-label">To <strong
+					style="color: red">*</strong> :
+				</label>
 				<div class="col-sm-6">
 
 					<form:input path="codeCpte2" placeholder="Receiver account number"
@@ -38,7 +41,8 @@
 				</div>
 			</div>
 			<div class="form-group col-sm-12">
-				<label for="montant" class="col-sm-3 col-sm-offset-1 control-label">Amount <strong style="color: red">*</strong> :
+				<label for="montant" class="col-sm-3 col-sm-offset-1 control-label">Amount
+					<strong style="color: red">*</strong> :
 				</label>
 				<div class="col-sm-6">
 
